@@ -92,21 +92,22 @@
 ```
 
 .
-├── dataset.py               # 데이터 로딩 및 전처리
-├── gnn\_model.py            # Simple GNN 구현
-├── gcn\_model.py            # GCN 구현
-├── gat\_model.py            # GAT 구현
-├── train\_gnn.py            # GNN 학습 루프
-├── train\_gcn.py            # GCN 학습 루프
-├── train\_gat.py            # GAT 학습 루프
-├── eval\_gnn.py             # GNN 평가 함수
-├── eval\_gcn.py             # GCN 평가 함수
-├── eval\_gat.py             # GAT 평가 함수
-├── run\_gnn.py              # GNN 학습 및 평가 실행 스크립트
-├── run\_gcn.py              # GCN 학습 및 평가 실행 스크립트
-├── run\_gat.py              # GAT 학습 및 평가 실행 스크립트
-├── compare\_results.py      # 모든 모델 결과 비교 시각화
-└── results/
+├── utils.py                # seed 설정
+├── dataset.py              # 데이터 로딩 및 전처리
+├── gnn_model.py            # Simple GNN 구현
+├── gcn_model.py            # GCN 구현
+├── gat_model.py            # GAT 구현
+├── train_gnn.py            # GNN 학습 루프
+├── train_gcn.py            # GCN 학습 루프
+├── train_gat.py            # GAT 학습 루프
+├── eval_gnn.py             # GNN 평가 함수
+├── eval_gcn.py             # GCN 평가 함수
+├── eval_gat.py             # GAT 평가 함수
+├── run_gnn.py              # GNN 학습 및 평가 실행 스크립트
+├── run_gcn.py              # GCN 학습 및 평가 실행 스크립트
+├── run_gat.py              # GAT 학습 및 평가 실행 스크립트
+├── compare_results.py      # 모든 모델 결과 비교 시각화
+|── results/
 ├── gnn.json
 ├── gcn.json
 ├── gat.json
