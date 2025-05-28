@@ -1,9 +1,9 @@
 import torch
 from torch.utils.data import DataLoader
 from dataset import load_dataset
-from gat_model import GATModel
-from train_gat import train_gat
-from eval_gat import eval_gat
+from models.gat_model import GATModel
+from train.train_gat import train_gat
+from eval.eval_gat import eval_gat
 from utils import set_seed
 
 if __name__ == "__main__":
