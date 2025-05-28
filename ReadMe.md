@@ -107,11 +107,11 @@
 ├── run_gcn.py              # GCN 학습 및 평가 실행 스크립트
 ├── run_gat.py              # GAT 학습 및 평가 실행 스크립트
 ├── compare_results.py      # 모든 모델 결과 비교 시각화
-|── results/
-├── gnn.json
-├── gcn.json
-├── gat.json
-└── \*.png (그래프 이미지들)
+└── results/
+    ├── gnn.json
+    ├── gcn.json
+    ├── gat.json
+    └── \*.png (그래프 이미지들)
 
 ```
 ##  결론 및 인사이트
